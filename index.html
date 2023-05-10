@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영풍문고 - 서점다운 서점</title>
+    <link href="img/logo_t.png" rel="icon" type="image/x-icon"><!-- 파비콘 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <img src="img/logo.png" alt="main-logo"></a>
+
+            <form class="search-form">
+                <input type="search" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">홈</a>
+                <a href="#best">베스트셀러</a>
+                <a href="#arrivals">새로나온 책</a>
+                <a href="#blog">블로그</a>
+                <a href="#events">문화행사</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- bottom navbar -->
+
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#best" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#blog" class="fas fa-comments"></a>
+        <a href="#events" class="fas fa-blogs"></a>
+    </nav>
+
+    <!-- login -->
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form>
+            <h3>로그인</h3>
+            <span>회원 아이디</span>
+            <input type="email" class="box" placeholder="아이디를 입력해주세요.">
+            <span>비밀번호</span>
+            <input type="password" class="box" placeholder="비밀번호를 입력해주세요.">
+            <div class="checkbox">
+                <input type="checkbox" id="remenber-me">
+                <label for="remenber-me"> 아이디 저장</label>
+            </div>
+            <input type="submit" value="로그인" class="btn">
+            <p>비밀번호를 찾겠습니까 ? <a href="#">click here</a></p>
+            <p>회원가입 하기셌습니까 ? <a href="#">create one</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>당신을 기다리는 13만권의 도서</h3>
+                <p>10년치 베스트셀러
+                    신간 오디오북 장르 소설까지</p>
+                <a href="#" class="btn">더 보기</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="img/book1.jpg" alt="home:음악으로 자유로워지다"></a>
+                    <a href="#" class="swiper-slide"><img src="img/book2.jpg" alt="home:구름 관찰자를 위한 가이드"></a>
+                    <a href="#" class="swiper-slide"><img src="img/book7.jpg" alt="home:꽤 괜찮은 해피엔딩"></a>
+                    <a href="#" class="swiper-slide"><img src="img/book4.jpg" alt="home:당신이 좋아지면, 밤이 깊어지면"></a>
+                    <a href="#" class="swiper-slide"><img src="img/book10.jpg" alt="main:뉴욕의 영웅이 된 오로르"></a>
+                    <a href="#" class="swiper-slide"><img src="img/book6.jpg" alt="home:기분이 태도가 되지 않게"></a>
+                </div>
+                <img src="img/pngegg.png" class="stand" alt="home-book-shelf">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- home section end -->
+
+
+    <!-- icons section start -->
+    <section class="ions-container">
+
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>무료배송</h3>
+                <p>7,500 이상</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>안전 결제</h3>
+                <p>안전보장</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>간단한 교환</h3>
+                <p>10일 내에</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24시간 QnA</h3>
+                <p>1544-9020</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- iconssection end -->
+
+
+    <!-- best section start -->
+    <section class="best" id="best">
+
+        <h1 class="heading"> <span>베스트셀러</span> </h1>
+
+        <div class="swiper best-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best1.jpg" alt="best:메리골드 마음 세탁소">
+                    </div>
+                    <div class="content">
+                        <h3>메리골드 마음 세탁소</h3>
+                        <div class="price">13,500원 <span>15,000원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best2.jpg" alt="best:내일을 바꾸는 인생공부">
+                    </div>
+                    <div class="content">
+                        <h3>내일을 바꾸는 인생공부</h3>
+                        <div class="price">16,020원 <span>17,800원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best3.jpg" alt="best:패션, 색을 입다">
+                    </div>
+                    <div class="content">
+                        <h3>패션, 색을 입다</h3>
+                        <div class="price">17,820원 <span>19,800원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best4.jpg" alt="best:돌연한 출발">
+                    </div>
+                    <div class="content">
+                        <h3>돌연한 출발</h3>
+                        <div class="price">14,400원 <span>16,000원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best5.jpg" alt="best:시장학개론">
+                    </div>
+                    <div class="content">
+                        <h3>시장학개론</h3>
+                        <div class="price">22,500원 <span>25,000원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best6.jpg" alt="best:스즈메의 문단속">
+                    </div>
+                    <div class="content">
+                        <h3>스즈메의 문단속</h3>
+                        <div class="price">11,700원 <span>13,000원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best7.jpg" alt="best:내면의 소통">
+                    </div>
+                    <div class="content">
+                        <h3>내면의 소통</h3>
+                        <div class="price">29,700원 <span>33,000원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best8.jpg" alt="best:거인의 노트">
+                    </div>
+                    <div class="content">
+                        <h3>거인의 노트</h3>
+                        <div class="price">16,200원 <span>18,000원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best9.jpg" alt="best:모든 삶은 흐른다">
+                    </div>
+                    <div class="content">
+                        <h3>모든 삶은 흐른다</h3>
+                        <div class="price">15,120원 <span>16,800원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/best10.jpg" alt="best:디 에센셜:죄와 벌">
+                    </div>
+                    <div class="content">
+                        <h3>디 에센셜:죄와 벌</h3>
+                        <div class="price">27,000원 <span>30,000원</span></div>
+                        <a href="#" class="btn">담기</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+    </section>
+    <!-- best section end -->
+
+    <!-- newsletter section start -->
+
+
+    <section class="newsletter">
+
+        <form>
+            <h3>내가 구독한 작가</h3>
+            <input type="email" placeholder="아이디를 입력해주세요" class="box">
+            <input type="submit" value="검색" class="btn">
+        </form>
+    </section>
+    <!-- newsletter section end -->
+
+
+    <!-- arrival section start -->
+
+    <section class="arrivals" id="arrivals">
+
+        <h1 class="heading"> <span>새로나온 책</span> </h1>
+        <!-- ====1==== -->
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book1.jpg" alt="new:음악으로 자유로워지다">
+                    </div>
+                    <div class="content">
+                        <h3>음악으로 자유로워지다</h3>
+                        <div class="price">16,200원 <span>18,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book2.jpg" alt="new:구름 관찰자를 위한 가이드">
+                    </div>
+                    <div class="content">
+                        <h3>구름 관찰자를 위한 가이드</h3>
+                        <div class="price">19,800원 <span>22,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book3.jpg" alt="new:꽤 괜찮은 해피엔딩">
+                    </div>
+                    <div class="content">
+                        <h3>꽤 괜찮은 해피엔딩</h3>
+                        <div class="price">12,600원 <span>14,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book4.jpg" alt="new:당신이 좋아지면 밤이 깊어지면">
+                    </div>
+                    <div class="content">
+                        <h3>당신이 좋아지면 밤이 깊어지면</h3>
+                        <div class="price">13,500원 <span>15,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book5.jpg" alt="new:뉴욕의 영웅이 된 오로르">
+                    </div>
+                    <div class="content">
+                        <h3>뉴욕의 영웅이 된 오로르</h3>
+                        <div class="price">17,100원 <span>19,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- ====2==== -->
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book6.jpg" alt="new:기분이 태도가 되지 않게">
+                    </div>
+                    <div class="content">
+                        <h3>기분이 태도가 되지 않게</h3>
+                        <div class="price">15,300원 <span>17,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book7.jpg" alt="new:백 살이 되면">
+                    </div>
+                    <div class="content">
+                        <h3>백 살이 되면</h3>
+                        <div class="price">15,300원 <span>17,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book8.jpg" alt="new:다시 서쪽으로 가다">
+                    </div>
+                    <div class="content">
+                        <h3>다시 서쪽으로 가다</h3>
+                        <div class="price">16,200원 <span>18,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book9.jpg" alt="new:위대한 대화">
+                    </div>
+                    <div class="content">
+                        <h3>위대한 대화</h3>
+                        <div class="price">16,830원 <span>17,000원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/book10.jpg" alt="new:세노이의 가르침">
+                    </div>
+                    <div class="content">
+                        <h3>세노이의 가르침</h3>
+                        <div class="price">6,480원 <span>7,200원</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- arrival section end -->
+
+    <!-- deal section start -->
+
+    <section class="deal">
+        <div class="content">
+            <h3>오늘의 특가</h3>
+            <h1>50% off</h1>
+            <p>아버지의 해방일지</p>
+            <span>새삼스럽게 경탄스럽다!
+                압도적인 몰입감, 가슴 먹먹한 감동
+                정지아의 손끝에서 펼쳐지는 시대의 온기 미스터리 같은 한 남자가 헤쳐온 역사의 격랑
+                그 안에서 발견하는 끝끝내 강인한 우리의 인생</span>
+            <a href="#" class="btn">바로가기</a>
+        </div>
+
+        <div class="image">
+            <img src="img/deal-img.jpg" class="deal-img" alt="hot-deal:아버지의 해방일지">
+        </div>
+
+    </section>
+
+    <!-- deal section end -->
+
+    <!-- blog section start -->
+    <section class="blog" id="blog">
+
+        <h1 class="heading"> <span>블로그</span></h1>
+
+        <div class="swiper blog-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="img/blog1.png" alt="blog:부자의 자세">
+                    <h3>부자의 자세</h3>
+                    <p>골프를 배울 때 자세를 제대로 배우지 않으면 나중에 자세를 고치기도 힘들고 골프 실력도 늘지 않는다고 들은 적이 있다. 책 "부자의 자세" 에서도 먼저 ‘부자’ 에 대한
+                        올바른 생각과 자세를 배워야 한다고 강조...</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/blog2.jpg" alt="blog:어린의 문해력">
+                    <h3>어린의 문해력</h3>
+                    <p>저자는 헬스장에서 트레이너가 개인 교습을 하듯 8주의 시간을 정해주고 문해력을 키우기 위한 구체적인 훈련방법을 제시한다. 책의 본문은 5장으로 나뉘며 1장에서는 문해력을...
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/blog3.jpg" alt="blog:걷는 독서">
+                    <h3>걷는 독서</h3>
+                    <p>이름으로만 유명한 시인이었습니다. 내게는 어떤 공유도 없는 사람이었지요. 하지만 그의 시집'너의 하늘을 보아'를 읽으며 그를 조금 내 안에 품게 되었습니다. 이 책은 누군가의
+                        블로그에서 서평으로 읽었어요.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/blog4.jpg" alt="blog:로스트 웨일">
+                    <h3>로스트 웨일</h3>
+                    <p>정신적인 문제를 겪는 엄마가 병원에 치료를 하러 들어간 1달 동안, 리오는 오션베이라고 하는 해안가의 작은 마을에 사는 외할머니에게 가서 지내게 되었다. 리오가 좋던 싫던
+                        선택할 수 없었던 문제이기도...</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/blog5.jpg" alt="blog:데미안">
+                    <h3>데미안</h3>
+                    <p>마침내 나도 데미안을 만났다. 불현듯 '영접했다'고 고쳐 쓰고 싶어진다. 소설에서 싱클레어와 별개의 인물로 등장하지만 결정적 순간마다 보여지는 데미안의 심리와 언행...
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/blog6.jpg" alt="blog:오십에 읽는 노자">
+                    <h3>오십에 읽는 노자</h3>
+                    <p>인생 후반전이 편하려면 전반전에 짊어졌던 마음의 짐부터 내려놓아야 한다. 자책하는 마음과 회한을 내려놓아야 자유로워진다. 하늘 나는 새가...</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- events section start -->
+
+    <section class="events" id="events">
+
+        <h1 class="heading"> <span>문화 행사</span> </h1>
+
+        <div class="swiper events-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/event1.jpg" alt="event:추남, 미녀">
+                    </div>
+                    <div class="content">
+                        <h3>[뮤지컬] 추남, 미녀</h3>
+                        <p>있는 그대로의 나 자신을 만나는 시간</p>
+                        <a href="#" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/event2.jpg" alt="event:봄날">
+                    </div>
+                    <div class="content">
+                        <h3>[살롱세미뮤지컬] 봄날</h3>
+                        <p>적당히 가볍고, 적당히 달콤한 어르신의 연애</p>
+                        <a href="#" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/event3.jpg" alt="event:다올소리와 해파리">
+                    </div>
+                    <div class="content">
+                        <h3>[콘서트] 2022 젊은국악 단장 콘서트 다올소리와 해파리</h3>
+                        <p>신비로운 바다 도시에서 펼쳐지는 신개념 국악 콘서트</p>
+                        <a href="#" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/event4.jpg" alt="event:욕막풍자극 코인전">
+                    </div>
+                    <div class="content">
+                        <h3>[국악음악극] 욕막풍자극 코인전</h3>
+                        <p>자본주의 현대사회에서 펼쳐지는 코인과 투자자의 갈판질팡 욕망풍자극</p>
+                        <a href="#" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/event5.jpg" alt="event:애드거 앨런 포의 불안">
+                    </div>
+                    <div class="content">
+                        <h3>[연극] 애드거 앨런 포의 불안</h3>
+                        <p>불안,인간 실존의 슬픈 자화상을 폭로한다!</p>
+                        <a href="#" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/event6.jpg" alt="event:어린왕자">
+                    </div>
+                    <div class="content">
+                        <h3>[뮤지컬] 어린왕자</h3>
+                        <p>기억, 그리고 그리움을 노래하다</p>
+                        <a href="#" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- events section end -->
+
+
+    <!-- footer section start -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our location</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"> 영풍문고 강남역점</i> </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> 영풍문고 여의도 IFC몰점</i> </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> 영풍문고 신림점</i> </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> 영풍문고 인천스퀘어점</i> </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> 영풍문고 수원 NC점</i> </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> 영풍문고 가산 마리오점</i> </a>
+            </div>
+
+            <div class="box">
+                <h3>바로가기</h3>
+                <a href="#"><i class="fas fa-arrow-right"> 홈</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> 베스트</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> 새로나온 책</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> 블로그</i></a>
+                <a href="#"><i class="fas fa-arrow-right"> 문화행사</i></a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"> 1544-9020</i></a>
+                <a href="#"><i class="fas fa-envelope"> webmaster@ypbooks.co.ke</i></a>
+                <a href="#"><i class="fas fa-envelope"> customer@ypbooks.co.kr</i></a>
+                <img src="img/worldmap1.png" class="map" alt="footer-world-map">
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="credit"> 회사명 : (주)영풍문고 ㅣ대표이사 : 김경환</div>
+        <div><span>소재지 : 서울특별시 종로구 청계천로 41 (우)03188</span></div>
+
+    </section>
+
+    <!-- footer section end -->
+
+    <!-- loader -->
+    <div class="preload loader-container">
+        <img src="img/loarding-img.gif" alt="loading-book">
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
